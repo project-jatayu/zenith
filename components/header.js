@@ -18,12 +18,14 @@ const Header = () => (
         </div>
 
         <style jsx>{`
+        @import url('https://rsms.me/inter/inter.css');
+        html { font-family: 'Inter', sans-serif; }
             .header {
                 text-align: left;
                 padding: 2em 10em 2em 10em;
                 box-shadow: 0px 1em 4em -0.2em #efefef;
                 font-size: 18px;
-                font-family: "SFNS Display";
+                font-family: "Inter";
             }
             .logo {
                 font-size: 24px;

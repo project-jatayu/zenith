@@ -23,9 +23,11 @@ const Footer = () => (
             <p>i guess</p>
         </div>
         <div>
-            <p className="bottom-logo">PROJECT JATAYU</p>
+            <p className="bottom-logo">Project Jatayu</p>
         </div>
         <style jsx>{`
+            @import url('https://rsms.me/inter/inter.css');
+            html { font-family: 'Inter', sans-serif; }
             .footer {
                 position: fixed;
                 bottom: 0;
@@ -36,6 +38,7 @@ const Footer = () => (
                 color: #eee;
                 bottom: 0;
                 background-image: linear-gradient(to bottom, #222 0%, #3f3f3f 100%);
+                font-family: "Inter"
             }
             .clearfix::after {
                 content: "";
@@ -59,8 +62,8 @@ const Footer = () => (
                 color: #fff;
             }
             .bottom-logo {
-                font-size: 32px;
-                padding: 5em 0em 0em 0em;
+                font-size: 22px;
+                padding: 14em 0em 0em 0em;
             }
                     `}
         </style>
