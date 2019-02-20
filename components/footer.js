@@ -23,7 +23,7 @@ const Footer = () => (
             <p>i guess</p>
         </div>
         <div>
-            <p className="bottom-logo">Project Jatayu</p>
+            <p className="bottom-logo"> J A T A Y U</p>
         </div>
         <style jsx>{`
             @import url('https://rsms.me/inter/inter.css');
@@ -65,8 +65,9 @@ const Footer = () => (
                 color: #222;
             }
             .bottom-logo {
+                font-weight: light;
                 font-size: 22px;
-                padding: 14em 0em 0em 0em;
+                padding: 10em 0em 0em 0em;
             }
                     `}
         </style>
