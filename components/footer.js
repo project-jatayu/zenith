@@ -27,18 +27,21 @@ const Footer = () => (
         </div>
         <style jsx>{`
             @import url('https://rsms.me/inter/inter.css');
-            html { font-family: 'Inter', sans-serif; }
+            html { font-family: 'Inter', sans-serif; padding: 0; margin: 0 }
+            body {
+                margin: 0;
+                padding: 0;
+            }
             .footer {
-                position: fixed;
+                position: relative;
+                background-color: #fff;
                 bottom: 0;
+                right: 0;
                 left: 0;
-                width: 100%;
-                background-color: #222;
+                box-shadow: 0px -1em 4em -0.2em #efefef;
                 padding: 2em 10em 2em 10em;
-                color: #eee;
-                bottom: 0;
-                background-image: linear-gradient(to bottom, #222 0%, #3f3f3f 100%);
-                font-family: "Inter"
+                color: #222;
+                font-family: "Inter";
             }
             .clearfix::after {
                 content: "";
@@ -59,7 +62,7 @@ const Footer = () => (
                 transition: 0.5s ease;
             }
             a:hover {
-                color: #fff;
+                color: #222;
             }
             .bottom-logo {
                 font-size: 22px;
