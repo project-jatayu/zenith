@@ -13,6 +13,10 @@ const Index = () => (
                     deployed.
             </p>
             </div>
+
+            <br />
+            <br />
+
             <div className="info">
                 <Link href="/about">
                     <a>LEARN MORE</a>
@@ -22,8 +26,10 @@ const Index = () => (
             <br />
             <br />
 
-            <hr />
-            
+            <div className="separator">
+                <span></span>
+            </div>
+
             <br />
             <br />
 
@@ -64,12 +70,18 @@ const Index = () => (
                 </div>
             </div>
 
+            <br />
+            <br />
+
             <div className="info">
                 <Link href="/subsystems">
                     <a>SUBSYSTEMS</a>
                 </Link>
             </div>
 
+            <br />
+            <br />
+            
             <style jsx>{`
                 body {
                     height: 100%
@@ -101,12 +113,13 @@ const Index = () => (
                 h4 {
                     font-size: 1em;
                 }
-                hr {
-                    border-top: 0.5px solid #efefef;
+                .separator {
+                    margin: 1em 0em;
+                    border-top: 0.5px solid #dedede;
                 }
                 .info {
                     text-align: center;
-                    padding: 2em 24em 2em 24em;
+                    padding: 0em 24em 0em 24em;
                 }
                 .clearfix::after {
                     content: "";
