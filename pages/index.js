@@ -87,25 +87,26 @@ const Index = () => (
                     padding: 4em 10em 2em 10em;
                     font-family: "Inter"
                 }
-                h1, h2 {
+                h1, h2, h3, h4 {
                     text-align: center;
-                    font-size: 72px;
+                    font-size: 5em;
                     font-vairant: bold;
                 } 
                 h2 {
-                    font-size: 44px;
+                    font-size: 3em;
+                } 
+                h3 {
+                    font-size: 2em;
                 }
                 h4 {
-                    text-align: center;
-                    font-size: 18px;
-                    color: #222;
+                    font-size: 1em;
                 }
                 hr {
                     border-top: 0.5px solid #efefef;
                 }
                 .info {
                     text-align: center;
-                    padding: 0em 24em 2em 24em;
+                    padding: 2em 24em 2em 24em;
                 }
                 .clearfix::after {
                     content: "";
