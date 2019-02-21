@@ -1,0 +1,24 @@
+.buttonStyle {
+  text-align: center;
+  padding: -1rem 24rem 0rem 24rem;
+}
+
+.linkStyle {
+    background-color: #147efb;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 0rem 0.7rem 2rem 0.4rem #dedede;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    text-decoration: none;
+    border: 0px solid;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+    width: 5rem;
+    margin: 4rem;
+    font-weight: bold;
+}
+
+.linkStyle:hover {
+  background-color: #258ffa;
+  box-shadow: 0rem 0.7rem 2rem 0.9rem #dedede;
+};
