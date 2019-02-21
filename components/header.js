@@ -19,16 +19,16 @@ const Header = () => (
 
         <style jsx>{`
         @import url('https://rsms.me/inter/inter.css');
-        html { font-family: 'Inter', sans-serif; }
+        html { font-family: 'Inter', sans-serif; font-size: 16px}
             .header {
                 text-align: left;
-                padding: 2em 10em 2em 10em;
-                box-shadow: 0px 1em 4em -0.2em #efefef;
-                font-size: 18px;
+                padding: 2rem 10rem 2rem 10rem;
+                box-shadow: 0rem 1rem 4rem -0.2rem #efefef;
+                font-size: 1rem;
                 font-family: "Inter";
             }
             .logo {
-                font-size: 24px;
+                font-size: 1.5rem;
                 font-weight: bold;
                 color: #222;
             }
@@ -40,10 +40,10 @@ const Header = () => (
             }
             a {
                 border: 0px solid;
-                border-radius: 0.5em;
+                border-radius: 0.5rem;
                 background-color: #fff;
-                padding: 0.5em 1em 0.5em 1em;
-                margin: 1em;
+                padding: 0.5rem 1rem 0.5rem 1rem;
+                margin: 1rem;
                 color: #888;
                 text-decoration: none;
                 transition: 0.5s ease;
