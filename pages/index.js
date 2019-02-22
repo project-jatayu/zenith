@@ -49,8 +49,8 @@ const Index = () => (
             <br />
             <br />
             <div className="row">
-                <div className="col-5"></div>
-                <div className="col-2">
+                <div className="col-4"></div>
+                <div className="col-4">
                     <Button link='/about' label='LEARN MORE' />
                 </div>
             </div>
@@ -92,8 +92,8 @@ const Index = () => (
     <br />
     <br />
     <div className="row">
-        <div className="col-5"></div>
-        <div className="col-2">
+        <div className="col-4"></div>
+        <div className="col-4">
             <Button link='/subsystems' label='SUBSYSTEMS' />
         </div>
     </div>
