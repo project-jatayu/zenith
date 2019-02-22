@@ -1,6 +1,5 @@
 .buttonStyle {
   text-align: center;
-  padding: -1rem 24rem 0rem 24rem;
 }
 
 .linkStyle {
@@ -13,8 +12,7 @@
     border: 0px solid;
     border-radius: 0.5rem;
     transition: 0.5s ease;
-    width: 5rem;
-    margin: 4rem;
+    margin: 0rem;
     font-weight: bold;
 }
 
