@@ -1,34 +1,45 @@
 import Link from 'next/link'
+import '../styles/Responsive.css'
 
 const Header = () => (
     <div className="header">
-        <Link href='/'>
-            <a className="logo">Project Jatayu</a>
-        </Link>
-        <div className="right-links">
-            <Link href='/'>
-                <a>Subsystems</a>
-            </Link>
-            <Link href='/about'>
-                <a>Past Works</a>
-            </Link>
-            <Link href='/contact'>
-                <a>Achievements</a>
-            </Link>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <div className="row">
+            <div className="col-3">
+                <Link href='/'>
+                    <a className="logo">Project Jatayu</a>
+                </Link>
+            </div>
+            <div className="col-9">
+                <div className="right-links">
+                    <Link href='/'>
+                        <a>Subsystems</a>
+                    </Link>
+                    <Link href='/about'>
+                        <a>Past Works</a>
+                    </Link>
+                    <Link href='/contact'>
+                        <a>Achievements</a>
+                    </Link>
+                </div>
+            </div>
         </div>
 
         <style jsx>{`
         @import url('https://rsms.me/inter/inter.css');
         html { font-family: 'Inter', sans-serif; font-size: 16px}
+            * {
+                box-sizing: border-box;
+             }
             .header {
                 text-align: left;
-                padding: 2rem 10rem 2rem 10rem;
+                padding: 2rem 17rem 2rem 17rem;
                 box-shadow: 0rem 1rem 4rem -0.2rem #efefef;
                 font-size: 1rem;
                 font-family: "Inter";
             }
             .logo {
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 font-weight: bold;
                 color: #222;
             }
@@ -57,7 +68,7 @@ const Header = () => (
                 font-weight: bold
             }
                     `}</style>
-    </div>
+            </div>
 )
 
 export default Header
