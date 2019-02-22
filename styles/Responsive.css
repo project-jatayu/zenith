@@ -32,9 +32,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
   .header :not(:first-child) {display: none;}
   .header {text-align: center}
-  .menu {
+  header.a {
     float: right;
     display: block;
   }
@@ -44,12 +47,12 @@
   .header.responsive {
     position: relative;
   }
-  .header.responsive .menu {
+  .header.responsive a {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .header.responsive * {
+  .header.responsive > not(marquee) {
     float: none;
     display: block;
     text-align: left;

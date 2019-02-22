@@ -5,8 +5,12 @@
 ## instructions
 
 ```shell
-npm install
-npm run build && npm run export
+npm install          # install deps
+npm run build
+npm run export       # produce static content
 npm install -g serve # simple webserver
-serve out/ -p 8080 # visit localhost:8080
+serve  -p 8080 out/  # visit localhost:8080
 ```
+## testing
+
+temporarily hosted on [site.nerdypepper.me](https://site.nerdypepper.me)

@@ -110,7 +110,7 @@ const About = () => (
                 font-family: "Inter"
             }
             .info {
-                padding: 0em 22em 0em 22em;
+                padding: 0em 18em 0em 18em;
             }
             .center {
                 text-align: center;

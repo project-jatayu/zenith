@@ -1,29 +1,32 @@
 import Link from 'next/link'
 import '../styles/Responsive.css'
 
+function dropdown() {
+  var nav = document.getElementById("nav");
+  if (nav.className === "header") {
+    nav.className += " responsive";
+  } else {
+    nav.className = "header";
+  }
+} 
+
 const Header = () => (
-    <div className="header">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <div className="row">
-            <div className="col-3">
-                <Link href='/'>
-                    <a className="logo">Project Jatayu</a>
-                </Link>
-            </div>
-            <div className="col-9">
-                <div className="right-links">
-                    <Link href='/'>
-                        <a>Subsystems</a>
-                    </Link>
-                    <Link href='/about'>
-                        <a>Past Works</a>
-                    </Link>
-                    <Link href='/contact'>
-                        <a>Achievements</a>
-                    </Link>
-                </div>
-            </div>
-        </div>
+    <div className="header" id="nav">
+        <Link href='/'>
+            <a className="logo">Project Jatayu</a>
+        </Link>
+        <Link href='/'>
+            <a>SUBSYSTEMS</a>
+        </Link>
+        <Link href='/about'>
+            <a>PAST WORKS</a>
+        </Link>
+        <Link href='/contact'>
+            <a>ACHIEVEMENTS</a>
+        </Link>
+        <a href="javascript:void(0)" className="menu" onClick="dropdown()">
+            down
+        </a>
 
         <style jsx>{`
         @import url('https://rsms.me/inter/inter.css');
@@ -32,8 +35,10 @@ const Header = () => (
                 box-sizing: border-box;
              }
             .header {
-                text-align: left;
-                padding: 2rem 17rem 2rem 17rem;
+                width: 100%;
+                float: left;
+                display: block;
+                padding: 2rem 12.5%;
                 box-shadow: 0rem 1rem 4rem -0.2rem #efefef;
                 font-size: 1rem;
                 font-family: "Inter";
@@ -44,10 +49,8 @@ const Header = () => (
                 color: #222;
             }
             .logo:hover {
-                background-color: #fff;
-            }
-            .right-links {
-                float: right;
+                background-color: #222;
+                color: #fff;
             }
             a {
                 border: 0px solid;
@@ -58,6 +61,7 @@ const Header = () => (
                 color: #888;
                 text-decoration: none;
                 transition: 0.5s ease;
+                font-weight: light;
             }
             a:hover {
                 background-color: #eee;
@@ -66,6 +70,9 @@ const Header = () => (
                 color: #fff;
                 background-color: #222;
                 font-weight: bold
+            }
+            .menu {
+                display: none;
             }
                     `}</style>
             </div>
