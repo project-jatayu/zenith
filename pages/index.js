@@ -36,8 +36,8 @@ const Index = () => (
                 <h1 style={{ textAlign: 'center', fontSize: '5rem' }}>Fly to the Zenith</h1>
             </div>
             <div className="row">
-                <div className="col-3"></div>
-                <div className="center col-6">
+                <div className="col-3 col-s-1"></div>
+                <div className="center col-6 col-s-10">
                     <p>
                         Project Jatayu is the Autonomous Unmanned Aerial Vehicle
                         team of RVCE. The project's aim is to build and test a <b>fully autonomous piloting system</b> which has the potential to be
@@ -49,8 +49,8 @@ const Index = () => (
             <br />
             <br />
             <div className="row">
-                <div className="col-4"></div>
-                <div className="col-4">
+                <div className="col-4 col-s-12"></div>
+                <div className="col-4 col-s">
                     <Button link='/about' label='LEARN MORE' />
                 </div>
             </div>
