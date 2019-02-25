@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
@@ -20,7 +20,7 @@
   .col-1-5 {width: 12.5%;}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1080px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -50,7 +50,7 @@
   display: table;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .footer {
     text-align: center;
   }
@@ -62,7 +62,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .header.responsive {
     position: relative;
   }
