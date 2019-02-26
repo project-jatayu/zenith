@@ -2,28 +2,32 @@ import Link from 'next/link'
 import '../styles/Responsive.css'
 
 function dropdown() {
-  var nav = document.getElementById("nav");
-  if (nav.className === "header") {
-    nav.className += " responsive";
-  } else {
-    nav.className = "header";
-  }
-} 
+    var nav = document.getElementById("nav");
+    if (nav.className === "header") {
+        nav.className += " responsive";
+    } else {
+        nav.className = "header";
+    }
+}
 
 const Header = () => (
     <div className="header" id="nav">
-        <Link href='/'>
-            <a className="logo">Project Jatayu</a>
-        </Link>
-        <Link href='/'>
-            <a>SUBSYSTEMS</a>
-        </Link>
-        <Link href='/about'>
-            <a>PAST WORKS</a>
-        </Link>
-        <Link href='/contact'>
-            <a>ACHIEVEMENTS</a>
-        </Link>
+        <div className="col-4">
+            <Link href='/'>
+                <a className="logo">Project Jatayu</a>
+            </Link>
+        </div>
+        <div className="col-8">
+            <Link href='/'>
+                <a className="navlinks">SUBSYSTEMS</a>
+            </Link>
+            <Link href='/about'>
+                <a className="navlinks">PAST WORKS</a>
+            </Link>
+            <Link href='/contact'>
+                <a className="navlinks">ACHIEVEMENTS</a>
+            </Link>
+        </div>
         <a href="javascript:void(0)" className="menu" onClick="dropdown()">
             down
         </a>
@@ -38,7 +42,7 @@ const Header = () => (
                 width: 100%;
                 float: left;
                 display: block;
-                padding: 2rem 12.5%;
+                padding: 1rem 12.5%;
                 box-shadow: 0rem 1rem 4rem -0.2rem #efefef;
                 font-size: 1rem;
                 font-family: "Inter";
@@ -79,3 +83,4 @@ const Header = () => (
 )
 
 export default Header
+
