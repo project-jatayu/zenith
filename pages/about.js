@@ -134,18 +134,11 @@ const About = () => (
                 padding: 4rem 0em 2rem 0em;
                 font-family: "Inter"
             }
-            .info {
-                padding: 0em 18em 0em 18em;
-            }
             .center {
                 text-align: center;
             }
             .justify {
                 text-align: justify;
-            }
-            .story {
-                text-align: justify;
-                font-size: 1rem;
             }
            `}</style>
        <Footer />

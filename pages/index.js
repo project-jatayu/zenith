@@ -33,7 +33,7 @@ const Index = () => (
         <Header />
         <div className="body">
             <div className="row">
-                <h1 style={{ textAlign: 'center', fontSize: '5rem' }}>Fly to the Zenith</h1>
+                <h1 style={{ textAlign: 'center', fontSize: '5rem', padding: '3rem 0 0 0' }}>Fly to the Zenith</h1>
             </div>
             <div className="row">
                 <div className="col-3 col-s-1"></div>
@@ -120,22 +120,11 @@ const Index = () => (
                     padding: 4rem 0rem 2rem 0rem;
                     font-family: "Inter"
                 }
-                .info {
-                    padding: 0rem 18rem 0rem 18rem;
-                }
-                .subtitle {
-                    padding: 0rem 25rem 0rem 25rem;
-                }
                 .center {
                     text-align: center;
                 }
                 .justify {
                     text-align: justify;
-                }
-                .clearfix::after {
-                    content: "";
-                    display: table;
-                    clear: both;
                 }
                 subs {
                     width: 100%;

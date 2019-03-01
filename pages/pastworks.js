@@ -10,7 +10,7 @@ const ImageCard = (props) => (
     <div className="row">
         <div className="col-2"></div>
         <div className="col-8">
-            <div className="card">
+            <div className="imagecard">
                 <img src={`/static/${props.name}.jpg`}></img>
                 <div className="bottom-text">
                     <h3 style={{ textTransform: 'uppercase' }}>{props.name}</h3>
