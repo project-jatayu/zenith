@@ -18,8 +18,8 @@ const Footer = () => (
         </div>
         <div className="col-3">
             <h4>Social</h4>
-            <p><a className="footerLink" href="https://www.instagram.com/projectjatayu/">instagram.com/<b>projectjatayu</b></a></p>
-            <p><a className="footerLink" href="https://www.facebook.com/ProjectJatayu">facebook.com/<b>projectjatayu</b></a></p>
+            <p><a className="footerLink" href="https://www.instagram.com/projectjatayu/">instagram.com/<span style={{ color: '#222' }}>projectjatayu</span></a></p>
+            <p><a className="footerLink" href="https://www.facebook.com/ProjectJatayu">facebook.com/<span style={{ color: '#222' }}>projectjatayu</span></a></p>
             <p><a className="footerLink" href="https://www.linkedin.com/in/project-jatayu-rvce-a9b14781/?originalSubdomain=in">Linkedin</a></p>
         </div>
         <div className="col-3">

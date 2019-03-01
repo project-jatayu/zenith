@@ -1,32 +1,27 @@
 import Link from 'next/link'
 import '../styles/Responsive.css'
 
-function dropdown() {
-    var nav = document.getElementById("nav");
-    if (nav.className === "header") {
-        nav.className += " responsive";
-    } else {
-        nav.className = "header";
-    }
-}
-
 const Header = () => (
     <div className="header" id="nav">
-        <div className="col-4">
-            <Link href='/'>
-                <a className="logo">Project Jatayu</a>
-            </Link>
+        <div className="row center">
+            <div className="col-12">
+                <Link href='/'>
+                    <a className="logo">Project Jatayu</a>
+                </Link>
+            </div>
         </div>
-        <div className="col-8">
-            <Link href='/'>
-                <a className="navlinks">SUBSYSTEMS</a>
-            </Link>
-            <Link href='/about'>
-                <a className="navlinks">PAST WORKS</a>
-            </Link>
-            <Link href='/contact'>
-                <a className="navlinks">ACHIEVEMENTS</a>
-            </Link>
+        <div className="row center">
+            <div className="col-12">
+                <Link href='/'>
+                    <a className="navlinks">SUBSYSTEMS</a>
+                </Link>
+                <Link href='/pastworks'>
+                    <a className="navlinks">PAST WORKS</a>
+                </Link>
+                <Link href='/achievements'>
+                    <a className="navlinks">ACHIEVEMENTS</a>
+                </Link>
+            </div>
         </div>
         <a href="javascript:void(0)" className="menu" onClick="dropdown()">
             down
@@ -42,7 +37,7 @@ const Header = () => (
                 width: 100%;
                 float: left;
                 display: block;
-                padding: 1rem 12.5%;
+                padding: 1rem 0;
                 box-shadow: 0rem 1rem 4rem -0.2rem #efefef;
                 font-size: 1rem;
                 font-family: "Inter";
@@ -69,6 +64,9 @@ const Header = () => (
             }
             a:hover {
                 background-color: #eee;
+            }
+            .center {
+                text-align: center;
             }
             .active {
                 color: #fff;

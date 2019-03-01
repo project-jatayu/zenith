@@ -60,5 +60,8 @@
   .logodiv {
     width: 100%
   }
+  .navlinks {
+    font-size: 1.2vw;
+  }
 }
 

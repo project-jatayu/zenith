@@ -15,9 +15,10 @@
 }
 
 .footerLink {
-  color: #222;
+  color: #888;
   text-decoration: none;
+  transition: 0.1s ease;
 }
 .footerLink:hover {
-  text-decoration: underline;
+  color: #222;
 }

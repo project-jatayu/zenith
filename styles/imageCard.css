@@ -1,10 +1,9 @@
-.card {
+.imagecard {
   margin: 0;
   font-size: 1.2rem;
-  box-shadow: 0rem 0.7rem 2rem 0.4rem #efefef;
   border-radius: 1rem;
-  background-image: linear-gradient(to bottom, #121212 0%, #323232 100%);
-  color: #fff;
+  color: #222;
+  box-shadow: 0rem 0.7rem 2rem 0.4rem #efefef;
 }
 
 img {
