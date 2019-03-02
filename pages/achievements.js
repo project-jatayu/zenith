@@ -21,16 +21,33 @@ const Achievements = () => (
     <div className="container">
         <Header />
         <div className="body">
-            <div className="row" style={{ height: '100%' }}>
-                {get_cols().map((col) => (
-                    <div className="col-2" style={{ padding: '3rem' }}>
-                        <h2>{col.title}</h2>
-                        <h4>{col.year}</h4>
-                        <p>{col.content}</p>
-                    </div>
-                ))}
+            <div className="row">
+                <div className="col-12 center">
+                    <h2>Achievements</h2>
+                </div>
             </div>
+            {get_cols().map((col) => (
+                <div className="row">
+                    <div className="col-3"></div>
+                    <div className="col-6 inrow">
+                        <div className="incol-2 card">
+                            <h3>{col.title}</h3>
+                            <h4>{col.year}</h4>
+                            <p>{col.content}</p>
+                        </div>
+                    </div>
+                </div>
+            ))}
             <style>{`
+                .inrow {
+                    display: flex;
+                }
+                .incol-1 {
+                    flex: 20%;
+                }
+                .incol-2 {
+                     flex: 80%;
+                }
                 html {
                     font-size: 16px;
                 }
@@ -44,6 +61,9 @@ const Achievements = () => (
                     position: relative;
                     margin: 0;
                     padding: 0;
+                }
+                .center {
+                    text-align: center;
                 }
                 .body {
                     font-size: 18px;
