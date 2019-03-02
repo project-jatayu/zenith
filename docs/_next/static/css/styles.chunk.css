@@ -1,0 +1,142 @@
+/* For mobile devices: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+  .col-1-5 {width: 12.5%;}
+}
+
+@media only screen and (min-width: 1080px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .col-1-5 {width: 12.5%;}
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 1080px) {
+  .footer {
+    text-align: center;
+  }
+  .header {text-align: center}
+}
+
+@media screen and (max-width: 1080px) {
+  .logodiv {
+    width: 100%
+  }
+  .navlinks {
+    font-size: 1.2vw;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  position: relative;
+  background-color: #fff;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0px -1rem 4em -0.2em #efefef;
+  padding: 2rem 0rem 2rem 0rem;
+  color: #222;
+  font-family: "Inter";
+}
+
+.footerLink {
+  color: #888;
+  text-decoration: none;
+  transition: 0.1s ease;
+}
+.footerLink:hover {
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-vairant: bold;
+}
+
+h2 {
+  font-size: 2.7rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+h4 {
+  font-size: 1rem;
+  color: #147efb;
+}
+
+.card {
+  margin: 0;
+  font-size: 1.2rem;
+  box-shadow: 0rem 0.7rem 2rem 0.4rem #efefef;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.imagecard {
+  margin: 0;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  color: #222;
+  box-shadow: 0rem 0.7rem 2rem 0.4rem #efefef;
+}
+
+img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+  height: auto;
+}
+
+.bottom-text {
+  width: 100%;
+  font-size: 18px;
+  padding: 3rem;
+}
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

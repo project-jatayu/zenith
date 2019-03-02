@@ -8384,7 +8384,7 @@ function () {
 
                       case 2:
                         return _context3.abrupt("return", new _promise.default(function (resolve) {
-                          ws = new WebSocket("".concat(wsProtocol, "://").concat(hostname, ":").concat(39857).concat("/"));
+                          ws = new WebSocket("".concat(wsProtocol, "://").concat(hostname, ":").concat(43441).concat("/"));
 
                           ws.onopen = function () {
                             return resolve();

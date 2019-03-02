@@ -1,0 +1,57 @@
+.card {
+  margin: 0;
+  font-size: 1.2rem;
+  box-shadow: 0rem 0.7rem 2rem 0.4rem #efefef;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.buttonStyle {
+  text-align: center;
+}
+
+.linkStyle {
+    background-color: #147efb;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 0rem 0.7rem 2rem 0.4rem #dedede;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    text-decoration: none;
+    border: 0px solid;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+    margin: 0rem;
+    font-weight: bold;
+}
+
+.linkStyle:hover {
+  background-color: #258ffa;
+  box-shadow: 0rem 0.7rem 2rem 0.9rem #dedede;
+};
+
+
+.separator {
+  margin: 1rem 0em;
+  border-top: 1px solid #dedede;
+}
+
+.imagecard {
+  margin: 0;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  color: #222;
+  box-shadow: 0rem 0.7rem 2rem 0.4rem #efefef;
+}
+
+img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+  height: auto;
+}
+
+.bottom-text {
+  width: 100%;
+  font-size: 18px;
+  padding: 3rem;
+}
+
