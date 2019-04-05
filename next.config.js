@@ -5,5 +5,4 @@ module.exports = withCSS({
             '/': { page: '/' }
         }
     }
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/zenith' : '',
 })
