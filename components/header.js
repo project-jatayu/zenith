@@ -12,7 +12,7 @@ const Header = () => (
         </div>
         <div className="row center">
             <div className="col-12">
-                <Link href='/'>
+                <Link href='/subsystems'>
                     <a className="navlinks">SUBSYSTEMS</a>
                 </Link>
                 <Link href='/pastworks'>
