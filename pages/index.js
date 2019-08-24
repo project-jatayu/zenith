@@ -94,7 +94,7 @@ const Index = () => (
     <div className="row">
         <div className="col-4"></div>
         <div className="col-4">
-            <Button link='/subsystems' label='SUBSYSTEMS' />
+            <Button link='/subsystem' label='SUBSYSTEMS' />
         </div>
     </div>
     <br />
